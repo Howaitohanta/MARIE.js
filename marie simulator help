@@ -1,0 +1,29 @@
+Hey guys i was wondering if someone could help me about some code issues I have in marie simulator
+
+I need to write a code that takes input from the user.
+Must take numbers from 0-100
+Print F (fail) if the number is <=49 
+Print P (pass) if the number is >40 and <=100 (<101)
+And stops at 10 results.
+
+I could really use some tips on my code ( I dont want anyone to write my code cause i'll never learn)
+
+The following code is what i have so far:
+
+	org 100
+	clear
+	input
+	store x
+	skipcond 400
+	load y
+	output 
+	clear
+	input
+	store c
+	skipcond 400
+	load z
+	output
+x, dec 0
+y, hex 46
+c, dec 0
+z, hex 50
